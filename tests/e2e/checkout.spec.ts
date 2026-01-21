@@ -16,7 +16,7 @@ test('E2E: User can complete checkout successfully', async ({ page }) => {
 
   // 3. Checkout Flow
   await checkout.proceedToCheckout();
-  await checkout.fillShippingDetails('QA', 'Candidate', '10110');
+  await checkout.fillShippingDetails('Worawit', 'Cha', '20130');
   await checkout.finishOrder();
 
   // 4. Assertion (ตรวจสอบผลลัพธ์)
